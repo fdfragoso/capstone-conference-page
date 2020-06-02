@@ -42,6 +42,10 @@ html {
   display: flex;
 }
 
+.bottom-nav-div1-3 ul {
+  list-style: none;
+}
+
 .top-nav {
   justify-content: flex-end;
 }

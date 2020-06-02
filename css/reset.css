@@ -90,6 +90,14 @@ dl {
   margin-bottom: 1rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  list-style: none;
+}
+
 ol ol,
 ul ul,
 ol ul,
@@ -337,4 +345,5 @@ template {
 [hidden] {
   display: none !important;
 }
+
 /*# sourceMappingURL=bootstrap-reboot.css.map */
