@@ -3,7 +3,6 @@
 module.exports = {
   "extends": "stylelint-config-recommended",
   "rules": {
-    "no-descending-specificity": null,
     "at-rule-empty-line-before": [ "always", {
       except: [
         "blockless-after-same-name-blockless",
@@ -14,6 +13,21 @@ module.exports = {
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always-single-line",
     "at-rule-semicolon-newline-after": "always",
+    "at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: [
+          "each",
+          "extend",
+          "for",
+          "function",
+          "if",
+          "include",
+          "mixin",
+          "while"
+        ]
+      }
+    ],
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always-multi-line",
