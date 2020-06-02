@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
 html * {
   font-family: 'Lato', sans-serif;
 }
@@ -77,6 +79,37 @@ html {
 .more,
 .logos {
   justify-content: center;
+}
+
+.bgimg {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.text-with-bcg {
+  font-size: 70px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
+  background-size: contain;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-with-bcg:nth-child(4),
+.text-with-bcg:nth-child(5) {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (max-width: 754px) {
