@@ -112,6 +112,63 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+[class="ml-5 pt-5"] p {
+  line-height: 65px;
+}
+
+.gen-join {
+  max-width: 800px;
+}
+
+.join {
+  border: 3px solid white;
+}
+
+[class="join position-relative p-3 bcg-cold3 mb-0"] {
+  z-index: 9;
+}
+
+.circle {
+  bottom: 90px;
+  right: -40px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.date p:first-of-type {
+  font-weight: 900;
+}
+
+.border-center {
+  width: 50px;
+  margin: 5px auto;
+  height: 3px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 30%);
+}
+
+.plan:hover {
+  border: 1px solid white;
+}
+
+.space-for-plans {
+  display: grid;
+  grid-template: 1fr/ repeat(5, 1fr);
+}
+
+.plan-img {
+  width: 65px;
+  height: 65px;
+}
+
+
 @media (max-width: 754px) {
   .circle {
     top: -40px;
