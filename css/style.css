@@ -36,7 +36,7 @@ html {
 .bottom-nav-div1-2,
 .bottom-nav-div1-3,
 .section-title,
-.see-whole,
+.see-all,
 .speakers-div,
 .speaker-info,
 .hidden-speakers,
@@ -76,7 +76,7 @@ footer,
 }
 
 .section-title,
-.see-whole,
+.see-all,
 .more,
 .logos {
   justify-content: center;
@@ -150,23 +150,23 @@ footer,
   height: 3px;
 }
 
-.plan {
+.mission {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: hsl(0, 0%, 30%);
 }
 
-.plan:hover {
+.mission:hover {
   border: 1px solid white;
 }
 
-.space-for-plans {
+.conference-mission {
   display: grid;
-  grid-template: 1fr/ repeat(5, 1fr);
+  grid-template: 1fr/ repeat(3, 1fr);
 }
 
-.plan-img {
+.mission-img {
   width: 65px;
   height: 65px;
 }
@@ -239,11 +239,11 @@ footer {
     bottom: 140px;
   }
 
-  .space-for-plans {
+  .conference-mission {
     display: block;
   }
 
-  .plan {
+  .mission {
     min-width: auto;
     max-width: 675px;
     display: flex;
@@ -252,17 +252,17 @@ footer {
     align-items: center;
   }
 
-  .plan div {
+  .mission div {
     display: flex;
     width: 100%;
   }
 
-  .plan img {
+  .mission img {
     margin-left: 15px;
   }
 
   [class="font-weight-bold cl524 mt-2"],
-  .plan p {
+  .mission p {
     text-align: left;
   }
 
@@ -270,7 +270,7 @@ footer {
     margin: 0 15px;
   }
 
-  .plan p {
+  .mission p {
     width: 100%;
   }
 }
