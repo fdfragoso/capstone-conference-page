@@ -168,6 +168,42 @@ html {
   height: 65px;
 }
 
+.speaker-info,
+.footer-div1-1,
+.footer-div2 {
+  flex-direction: column;
+}
+
+.for-image::before {
+  content: "";
+  background-image: url(../images/chess.png);
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.for-image img {
+  z-index: 1;
+}
+
+.left-border {
+  width: 30px;
+  height: 3px;
+}
+
+.more {
+  border: 1px solid #d3d3d3;
+}
+
+footer {
+  justify-content: space-around;
+}
 
 @media (max-width: 754px) {
   .circle {
