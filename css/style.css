@@ -231,10 +231,6 @@ footer {
     display: block;
   }
 
-  /* .more {
-    justify-content: center;
-  } */
-
   [class="text-with-bcg text-uppercase p-0 m-0"] {
     font-size: 47px;
   }
@@ -285,7 +281,3 @@ footer {
     bottom: 120px;
   }
 }
-
-/* * {
-  border: 1px solid greenyellow;
-} */
