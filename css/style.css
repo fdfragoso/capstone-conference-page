@@ -1,3 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
 html * {
   font-family: 'Lato', sans-serif;
 }
@@ -28,6 +31,14 @@ html {
 
 .bcg-cold3 {
   background-color: #d3d3d3;
+}
+
+.cl8ab {
+  color: #78c8ab;
+}
+
+.cocogoose {
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .top-nav,
@@ -82,6 +93,11 @@ footer,
   justify-content: center;
 }
 
+.logo-img img {
+  width: 55px;
+  height: 50px;
+}
+
 .bgimg {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
   background-size: cover;
@@ -95,8 +111,6 @@ footer,
   z-index: -1;
   opacity: 0.2;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .text-with-bcg {
   font-size: 70px;
