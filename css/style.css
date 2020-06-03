@@ -179,7 +179,7 @@ footer,
 
 .for-image::before {
   content: "";
-  background-image: url(../images/chess.png);
+  background-image: url(../img/chess.png);
   background-position: center;
   background-size: cover;
   width: 60px;
