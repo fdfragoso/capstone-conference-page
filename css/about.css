@@ -187,11 +187,11 @@ footer,
 }
 
 .paris {
-  background-image: url(../images/paris.jpg);
+  background-image: url(../img/2019.png);
 }
 
 .New-York {
-  background-image: url(../images/new-york.jpg);
+  background-image: url(../img/2018.png);
 }
 
 [class="flex-column position-absolute text-white text-center"] {
