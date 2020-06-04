@@ -86,6 +86,10 @@ footer,
   visibility: hidden;
 }
 
+.bottom-nav-div1-3 ul {
+  list-style: none;
+}
+
 .section-title,
 .see-all,
 .more,
@@ -99,7 +103,7 @@ footer,
 }
 
 .bgimg {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzuwxdeKebEP9sSC3_DHJ54oQ7oKnmpoKFZtXfdCYXprzEvoCc&usqp=CAU);
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;
@@ -114,7 +118,7 @@ footer,
 
 .text-with-bcg {
   font-size: 70px;
-  background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
+  background-image: url(../img/joy.png);
   background-size: contain;
   background-repeat: repeat;
   -webkit-text-fill-color: transparent;

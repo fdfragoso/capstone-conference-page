@@ -163,6 +163,10 @@ footer,
   flex-direction: column;
 }
 
+.bottom-nav-div1-3 ul {
+  list-style: none;
+}
+
 .paris {
   background-image: url(../images/paris.jpg);
 }
