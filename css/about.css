@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
 html * {
   font-family: 'Lato', sans-serif;
@@ -72,6 +73,11 @@ footer,
   justify-content: center;
 }
 
+.logo-img img {
+  width: 55px;
+  height: 50px;
+}
+
 .past-summits-div {
   flex-direction: row;
 }
@@ -131,8 +137,8 @@ footer,
 }
 
 .logo img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 55px;
 }
 
 .past-summits {
