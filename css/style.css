@@ -118,7 +118,7 @@ footer,
 
 .text-with-bcg {
   font-size: 70px;
-  background-image: url(img/joy.png);
+  background-image: url(../img/joy.png);
   background-size: contain;
   background-repeat: repeat;
   -webkit-text-fill-color: transparent;
