@@ -25,6 +25,10 @@
 ## 🧐 About <a name = "about"></a>
 <h3 align="center"> This is an assigment for Microverse's HTML and CSS course, and the goal is to create a conference web page following some requirements and based on CC Global Summit 2015 <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">main page</a>.</h3>
 
+<p align="center">
+  <img src="img/print.png" alt="project">
+</p>
+
 ---
 
 ## 🔧 Built with<a name = "built_using"></a>
@@ -37,6 +41,10 @@
 ## 🔴 Live Demo
 
 [Live Demo](https://rawcdn.githack.com/fdfragoso/capstone-conference-page/d04c5292487ab8df5e104f0f42921b203183a3a6/index.html)
+
+## 📺 Video Presentation <a name = "presentation"></a>
+
+[Video Presentation](https://www.loom.com/share/fcaa8f05743a4011995330517bf8e049)
 
 ### 🛠 Installing <a name = "installing"></a>
 
