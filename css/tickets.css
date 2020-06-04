@@ -1,7 +1,12 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 html * {
   font-family: 'Lato', sans-serif;
+}
+
+html {
+  margin: 0 auto;
 }
 
 .bcg-col272 {
@@ -28,15 +33,26 @@ html * {
   background-color: #d3d3d3;
 }
 
+.cl8ab {
+  color: #78c8ab;
+}
+
+.cocogoose {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
 .top-nav,
-.top-nav ul,
+[class="float-right mb-0"],
 .bottom-nav,
 .bottom-nav-div1-2,
 .bottom-nav-div1-3,
 .section-title,
-.past-summits-div,
+.see-all,
+.speakers-div,
+.speaker-info,
+.hidden-speakers,
 .logos,
-.logos div,
+.logos-div,
 footer,
 .footer-div1,
 .footer-div1-1,
@@ -58,7 +74,7 @@ footer,
 }
 
 .bottom-nav-div1-1,
-.partners {
+.more {
   display: none;
 }
 
@@ -66,18 +82,38 @@ footer,
   color: #ec5242;
 }
 
+.dropdown-toggle::after {
+  visibility: hidden;
+}
+
+.bottom-nav-div1-3 ul {
+  list-style: none;
+}
+
 .section-title,
-.past-summits-div,
+.see-all,
+.more,
 .logos {
   justify-content: center;
 }
 
-.past-summits-div {
-  flex-direction: row;
+.logo-img img {
+  width: 55px;
+  height: 50px;
+}
+
+.select-tickets {
+  background-color: #f4f5f6;
 }
 
 .text-with-bcg {
   font-size: 70px;
+  background-image: url(../img/joy.png);
+  background-size: contain;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
 }
@@ -87,30 +123,33 @@ footer,
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-[class="text-center ml-5 pt-5"] p {
-  line-height: 70px;
+[class="ml-5 pt-5"] p {
+  line-height: 65px;
+}
+
+.gen-join {
+  max-width: 800px;
 }
 
 .join {
-  border: 3px solid gray;
-  margin: 0 auto;
+  border: 3px solid white;
 }
 
-[class="join container bg-white position-relative p-3 mb-0"] {
+[class="join position-relative p-3 bcg-cold3 mb-0"] {
   z-index: 9;
 }
 
 .circle {
-  top: -35px;
-  left: 35px;
+  bottom: 90px;
+  right: -40px;
   width: 90px;
   height: 90px;
   border-radius: 50%;
   z-index: 1;
 }
 
-.date a {
-  color: black;
+.date p:first-of-type {
+  font-weight: 900;
 }
 
 .border-center {
@@ -119,141 +158,133 @@ footer,
   height: 3px;
 }
 
-.logo-info {
-  margin: auto 200px;
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 30%);
 }
 
-.place-for-logo {
-  border: 1px solid #d3d3d3;
-  background-color: #f4f5f6;
-  width: 380px;
-  margin: 0 auto;
+.mission:hover {
+  border: 1px solid white;
 }
 
-.logo img {
-  width: 100px;
-  height: 100px;
+.conference-mission {
+  display: grid;
+  grid-template: 1fr/ repeat(3, 1fr);
 }
 
-.past-summits {
-  border: 1px solid #d3d3d3;
+.mission-img {
+  width: 65px;
+  height: 65px;
 }
 
-.previous {
-  margin: 0 auto;
-}
-
-.previous-bg {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 250px;
-  opacity: 0.6;
-}
-
-.previous-bg:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
-.previous-bg div,
+.speaker-info,
 .footer-div1-1,
 .footer-div2 {
   flex-direction: column;
 }
 
-.bottom-nav-div1-3 ul {
-  list-style: none;
+.for-image::before {
+  content: "";
+  background-image: url(../img/chess.png);
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  opacity: 0.5;
+  z-index: 0;
 }
 
-.paris {
-  background-image: url(../images/paris.jpg);
+.for-image img {
+  z-index: 1;
 }
 
-.New-York {
-  background-image: url(../images/new-york.jpg);
+.left-border {
+  width: 30px;
+  height: 3px;
 }
 
-[class="flex-column position-absolute text-white text-center"] {
-  bottom: 70px;
-  left: 90px;
-}
-
-[class="flex-column position-absolute text-white text-center"] h4 {
-  font-size: 30px;
-  font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.logos ul {
-  margin: 10px auto;
+.more {
+  border: 1px solid #d3d3d3;
 }
 
 footer {
   justify-content: space-around;
 }
 
-.bg-logo {
-  width: 200px;
-  height: 150px;
-}
-
-@media screen and (min-width: 768px) {
+@media (max-width: 754px) {
   .circle {
-    top: -35px;
-    left: -35px;
+    top: -40px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .top-nav,
   .bottom-nav-div1-2,
-  .bottom-nav-div1-3 {
+  .bottom-nav-div1-3,
+  .hidden-speakers {
     display: none;
   }
 
-  .bottom-nav-div1-1 {
+  .bottom-nav-div1-1,
+  .more {
     display: flex;
   }
 
-  .past-summits-div {
-    flex-direction: column;
-  }
-
-  .partners,
-  .logos div {
+  .logos-div {
     display: block;
   }
 
-  [class="text-with-bcg cl524 text-uppercase p-0 m-0"] {
+  [class="text-with-bcg text-uppercase p-0 m-0"] {
     font-size: 47px;
   }
 
   .circle {
-    top: -35px;
-    left: 0;
+    bottom: 140px;
   }
 
-  [class="container-fluid m-0 d-flex justify-content-around row pt-4 bcg-col272 text-white"] {
-    background-color: #fff;
+  .conference-mission {
+    display: block;
   }
 
-  footer * {
-    color: black;
+  .mission {
+    min-width: auto;
+    max-width: 675px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mission div {
+    display: flex;
+    width: 100%;
+  }
+
+  .mission img {
+    margin-left: 15px;
+  }
+
+  [class="font-weight-bold cl524 mt-2"],
+  .mission p {
+    text-align: left;
+  }
+
+  [class="font-weight-bold cl524 mt-2"] {
+    margin: 0 15px;
+  }
+
+  .mission p {
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 748px) {
+@media (max-width: 846px) {
   .circle {
-    top: -35px;
-    left: -25px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .circle {
-    top: -35px;
-    left: -35px;
+    bottom: 120px;
   }
 }
