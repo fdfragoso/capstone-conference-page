@@ -205,6 +205,11 @@ footer {
   height: 150px;
 }
 
+.footer-logo-img {
+  width: 55px;
+  height: 55px;
+}
+
 @media screen and (min-width: 768px) {
   .circle {
     top: -35px;
