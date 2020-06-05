@@ -199,11 +199,11 @@ footer {
 
   .table,
   .menu {
-    width: 540px;
+    width: auto;
   }
 
   .for-tickets,
   .for-lunch {
-    width: 540px;
+    width: auto;
   }
 }
