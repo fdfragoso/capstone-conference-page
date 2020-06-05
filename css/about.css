@@ -82,6 +82,10 @@ footer,
   height: 50px;
 }
 
+main {
+  min-width: 550px;
+}
+
 .past-summits-div {
   flex-direction: row;
 }
@@ -211,6 +215,7 @@ footer,
 
 footer {
   justify-content: space-around;
+  min-width: 550px;
 }
 
 .bg-logo {
