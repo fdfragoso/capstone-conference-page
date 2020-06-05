@@ -4,6 +4,10 @@ html * {
   font-family: 'Lato', sans-serif;
 }
 
+main {
+  min-width: 550px;
+}
+
 .bcg-col272 {
   background-color: #272a31;
 }
@@ -169,6 +173,10 @@ th {
 .menu ul,
 footer {
   justify-content: space-around;
+}
+
+footer {
+  min-width: 550px;
 }
 
 .footer-div1-1,
