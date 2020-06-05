@@ -263,9 +263,9 @@ footer {
     background-color: #fff;
   }
 
-  footer * {
+  /* footer * {
     color: black;
-  }
+  } */
 }
 
 @media screen and (max-width: 748px) {
