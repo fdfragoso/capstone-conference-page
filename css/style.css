@@ -102,6 +102,12 @@ footer,
   height: 50px;
 }
 
+.logo-a,
+.logo-a:hover {
+  text-decoration: none;
+  color: #ec5242;
+}
+
 .bgimg {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzuwxdeKebEP9sSC3_DHJ54oQ7oKnmpoKFZtXfdCYXprzEvoCc&usqp=CAU);
   background-size: cover;
