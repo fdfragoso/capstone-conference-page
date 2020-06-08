@@ -23,7 +23,10 @@
 
 
 ## 🧐 About <a name = "about"></a>
-<h3 align="center"> This is an assigment for Microverse's HTML and CSS course, and the goal is to create a conference web page following some requirements and based on CC Global Summit 2015 <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">main page</a>.</h3>
+<h3 align="center"> This is an assigment for Microverse's HTML and CSS course. The goal was to create a conference webpage. This page should follow some requirements and some design. This design is based on the CC Global Summit 2015 <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">main page</a>.</h3>.
+The page should contain a index, tickets and about site. With all the expected information about a conference webpage should have. 
+To follow all those requirements, the author created the fictional event Games Week Viborg 2020 (the author lives in Viborg, Denmark). In this event some lead people in the game development field would be present, taking place in october.
+All in all this project was developed during the capstone html and css project phase of Microverse to show all learned in this area. 
 
 <p align="center">
   <img src="img/print.png" alt="project">
