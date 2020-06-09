@@ -82,7 +82,8 @@ footer,
   height: 50px;
 }
 
-main {
+main,
+body {
   min-width: 550px;
 }
 

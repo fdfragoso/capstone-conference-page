@@ -4,7 +4,8 @@ html * {
   font-family: 'Lato', sans-serif;
 }
 
-main {
+main,
+body {
   min-width: 550px;
 }
 

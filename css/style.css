@@ -41,6 +41,11 @@ html {
   font-family: 'COCOGOOSE', sans-serif;
 }
 
+main,
+body {
+  min-width: 550px;
+}
+
 .top-nav,
 [class="float-right mb-0"],
 .bottom-nav,
