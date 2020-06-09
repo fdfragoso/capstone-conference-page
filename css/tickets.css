@@ -1,0 +1,218 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+html * {
+  font-family: 'Lato', sans-serif;
+}
+
+main,
+body {
+  min-width: 550px;
+}
+
+.bcg-col272 {
+  background-color: #272a31;
+}
+
+.cl272 {
+  color: #272a31;
+}
+
+.cl524 {
+  color: #ec5242;
+}
+
+.bcg-col524 {
+  background-color: #ec5242;
+}
+
+.cld3 {
+  color: #d3d3d3;
+}
+
+.bcg-cold3 {
+  background-color: #d3d3d3;
+}
+
+.cocogoose {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.select-tickets {
+  background-color: #f4f5f6;
+}
+
+.top-nav,
+.top-nav ul,
+.bottom-nav,
+.section-title,
+.step,
+.step-div,
+.next,
+.menu h6,
+.menu ul,
+[type="submit"],
+.footer-div1,
+.footer-div1-1,
+.footer-div2,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3,
+.bottom-nav-div1-3 ul {
+  display: flex;
+}
+
+.section-title,
+.step,
+.step-div,
+.tr,
+.next,
+.menu h6,
+[type="submit"],
+footer {
+  justify-content: center;
+}
+
+.top-nav {
+  justify-content: flex-end;
+}
+
+.bottom-nav,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3 ul {
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  align-content: center;
+}
+
+.bottom-nav-div1-1 {
+  display: none;
+}
+
+.nav-link:hover {
+  color: #ec5242;
+}
+
+.logo-img img {
+  width: 55px;
+  height: 50px;
+}
+
+.border-center {
+  width: 50px;
+  margin: 5px auto;
+  height: 3px;
+}
+
+.rhombus {
+  width: 10px;
+  height: 10px;
+  margin-top: 23px;
+}
+
+.step {
+  border: 1px solid #d3d3d3;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.for-tickets {
+  width: 850px;
+}
+
+.bottom-nav-div1-3 ul {
+  list-style: none;
+}
+
+.table {
+  width: 700px;
+  margin: 0 auto;
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  border-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) 5px, transparent 6px, transparent 10px, rgba(255, 0, 0, 0.8) 11px, rgba(255, 0, 0, 0.8) 15px, transparent 16px, transparent 20px) 10/10px;
+  border-radius: 5px;
+}
+
+table,
+.menu,
+[type="submit"] {
+  margin: 0 auto;
+}
+
+td,
+th {
+  border: 1px solid #d3d3d3;
+  width: 175px;
+  padding: 0;
+  margin: 0;
+}
+
+.next {
+  bottom: 21px;
+}
+
+.next div {
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+}
+
+.next i {
+  bottom: 12px;
+  left: 14px;
+  transform: rotate(-90deg);
+}
+
+.for-lunch,
+.menu {
+  max-width: 800px;
+}
+
+.menu {
+  border: 1px solid #d3d3d3;
+}
+
+.menu ul,
+footer {
+  justify-content: space-around;
+}
+
+footer {
+  min-width: 550px;
+}
+
+.footer-div1-1,
+.footer-div2 {
+  flex-direction: column;
+}
+
+.footer-logo-img {
+  width: 55px;
+  height: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-nav,
+  .bottom-nav-div1-2,
+  .bottom-nav-div1-3 {
+    display: none;
+  }
+
+  .bottom-nav-div1-1 {
+    display: flex;
+  }
+
+  .step {
+    display: block;
+    border-radius: 10px;
+  }
+
+  .table,
+  .menu {
+    width: auto;
+  }
+
+  .for-tickets,
+  .for-lunch {
+    width: auto;
+  }
+}

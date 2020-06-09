@@ -1,0 +1,311 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+html * {
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  margin: 0 auto;
+}
+
+.bcg-col272 {
+  background-color: #272a31;
+}
+
+.cl272 {
+  color: #272a31;
+}
+
+.cl524 {
+  color: #ec5242;
+}
+
+.bcg-col524 {
+  background-color: #ec5242;
+}
+
+.cld3 {
+  color: #d3d3d3;
+}
+
+.bcg-cold3 {
+  background-color: #d3d3d3;
+}
+
+.cl8ab {
+  color: #78c8ab;
+}
+
+.cocogoose {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+main,
+body {
+  min-width: 550px;
+}
+
+.top-nav,
+[class="float-right mb-0"],
+.bottom-nav,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3,
+.section-title,
+.see-all,
+.speakers-div,
+.speaker-info,
+.hidden-speakers,
+.logos,
+.logos-div,
+footer,
+.footer-div1,
+.footer-div1-1,
+.footer-div2 {
+  display: flex;
+}
+
+.top-nav {
+  justify-content: flex-end;
+}
+
+.bottom-nav,
+.bottom-nav-div1-2 {
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  align-content: center;
+}
+
+.bottom-nav-div1-1,
+.more {
+  display: none;
+}
+
+.nav-link:hover {
+  color: #ec5242;
+}
+
+.dropdown-toggle::after {
+  visibility: hidden;
+}
+
+.bottom-nav-div1-3 ul {
+  list-style: none;
+}
+
+.section-title,
+.see-all,
+.more,
+.logos {
+  justify-content: center;
+}
+
+.logo-img img {
+  width: 55px;
+  height: 50px;
+}
+
+.logo-a,
+.logo-a:hover {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.bgimg {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzuwxdeKebEP9sSC3_DHJ54oQ7oKnmpoKFZtXfdCYXprzEvoCc&usqp=CAU);
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.text-with-bcg {
+  font-size: 70px;
+  background-image: url(../img/joy.png);
+  background-size: contain;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-with-bcg:nth-child(4),
+.text-with-bcg:nth-child(5) {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+[class="ml-5 pt-5"] p {
+  line-height: 65px;
+}
+
+.gen-join {
+  max-width: 800px;
+}
+
+.join {
+  border: 3px solid white;
+}
+
+[class="join position-relative p-3 bcg-cold3 mb-0"] {
+  z-index: 9;
+}
+
+.circle {
+  bottom: 90px;
+  right: -40px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.date p:first-of-type {
+  font-weight: 900;
+}
+
+.border-center {
+  width: 50px;
+  margin: 5px auto;
+  height: 3px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 30%);
+}
+
+.mission:hover {
+  border: 1px solid white;
+}
+
+.conference-mission {
+  display: grid;
+  grid-template: 1fr/ repeat(3, 1fr);
+}
+
+.mission-img {
+  width: 65px;
+  height: 65px;
+}
+
+.speaker-info,
+.footer-div1-1,
+.footer-div2 {
+  flex-direction: column;
+}
+
+.for-image::before {
+  content: "";
+  background-image: url(../img/chess.png);
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.for-image img {
+  z-index: 1;
+}
+
+.left-border {
+  width: 30px;
+  height: 3px;
+}
+
+.more {
+  border: 1px solid #d3d3d3;
+}
+
+footer {
+  justify-content: space-around;
+}
+
+@media (max-width: 754px) {
+  .circle {
+    top: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-nav,
+  .bottom-nav-div1-2,
+  .bottom-nav-div1-3,
+  .hidden-speakers {
+    display: none;
+  }
+
+  .bottom-nav-div1-1,
+  .more {
+    display: flex;
+  }
+
+  .logos-div {
+    display: block;
+  }
+
+  [class="text-with-bcg text-uppercase p-0 m-0"] {
+    font-size: 47px;
+  }
+
+  .circle {
+    bottom: 140px;
+  }
+
+  .conference-mission {
+    display: block;
+  }
+
+  .mission {
+    min-width: auto;
+    max-width: 675px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mission div {
+    display: flex;
+    width: 100%;
+  }
+
+  .mission img {
+    margin-left: 15px;
+  }
+
+  [class="font-weight-bold cl524 mt-2"],
+  .mission p {
+    text-align: left;
+  }
+
+  [class="font-weight-bold cl524 mt-2"] {
+    margin: 0 15px;
+  }
+
+  .mission p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 846px) {
+  .circle {
+    bottom: 120px;
+  }
+}
